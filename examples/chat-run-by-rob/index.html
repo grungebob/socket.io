@@ -13,7 +13,7 @@
         });
         socket.on('chat to client', function(msg){
           console.log('YO YO, ', msg);
-          $('#messages').append($('<ul>').text(msg));
+          $('#messages').append($('<li>').text(msg));
         });
       });
     </script>
